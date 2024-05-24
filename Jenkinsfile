@@ -17,6 +17,8 @@ pipeline {
 //			name: 'cd'
 //			)			
 //	}
+
+// this is new modification
 	environment {
 		pom = readMavenPom file: 'pom.xml'
 		version = "${pom.version}"
